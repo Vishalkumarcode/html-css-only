@@ -1,0 +1,132 @@
+body
+{
+    margin: 0;  padding: 0;
+}
+.same-css
+{ font-family: 'Merriweather', serif; margin: -6px;  text-align: center;
+
+    color: #40514e;
+}
+
+/* navigation*/
+.navigation
+{ padding: 35px;
+
+    background-color: #e4f9f5;
+}
+
+.navigation a
+{ font-family: 'Montserrat', sans-serif;
+
+    float: right;  margin: 10px 20px;  text-decoration: none;  color: #11999e;
+}
+.navigation a:hover{
+  color: #30e3cb;
+}
+h1
+{ font-family: 'Sacramento', cursive;  font-size: 90px;  line-height: 2;
+
+    margin: 50px auto 0 auto;  color: #66bfbf;
+}
+h2
+{
+    font-family: 'Montserrat', sans-serif;  font-size: 2.5rem;  font-weight: normal;  position: relative;  bottom: 36px; color: #66bfbf;
+}
+h3
+{
+    font-family: 'Montserrat', sans-serif;  color: #11999e;
+}
+
+.top-container
+{ position: relative;  padding-top: 100px;
+
+    background-color: #e4f9f5;
+}
+.middle-container
+{
+    margin: 100px 0;
+}
+.bottom-container
+{ padding: 50PX 0 20PX;
+
+    background-color: #66bfbf;
+}
+.footer-link
+{
+    font-family: 'Montserrat', sans-serif;  margin: 10px 20px;  text-decoration: none;  color: #11999e;
+}
+.footer-link:hover
+{
+    color: #eaf6f6;
+}
+.copyright
+{ font-size: .75rem; padding: 20px 0;
+
+    color: #eaf6f6;
+}
+.top-cloud
+{
+    position: absolute;  top: 80px; right: 300px;
+}
+.bottom-cloud
+{
+    position: absolute;  bottom: 315px; left: 355px;
+}
+.pro
+{
+    text-decoration: underline;
+}
+.intro
+{
+    width: 30%;  margin: auto;
+}
+.contact-pra
+{
+    width: 40%;  margin: 40px auto 60px;
+}
+.skill-row
+{
+    width: 50%;  margin: 100px auto;  text-align: left;
+}
+p
+{
+    line-height: 2;
+}
+.code-img
+{ float: left;
+
+    width: 25%;  margin-right: 30px;  border-radius: 100px;
+}
+/*i GIVE 3 BORDER PROPERTY IN ONE BORDER STYLE, COLOR, WIDTH*/
+hr
+{ width: 4%;  margin: 100px auto;
+
+    border: dotted #eaf6f6 6PX;  border-bottom: None;
+}
+
+
+.chilli-img
+{ float: right;
+
+    width: 25%;  margin-left: 30px;
+}
+/*if you want to clear something */
+/*
+.code-description{
+  clear: left;
+}
+.chilli-description{
+  clear:right;
+} */
+
+
+.btn
+{ font-family: Arial;  font-size: 20px;  padding: 10px 20px 10px 20px;  text-decoration: none; color: #fff;  -webkit-border-radius: 8;        -moz-border-radius: 8;                  border-radius: 8px;
+    background: #11cdd4;  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);  background-image:    -moz-linear-gradient(top, #11cdd4, #11999e);  background-image:     -ms-linear-gradient(top, #11cdd4, #11999e);  background-image:      -o-linear-gradient(top, #11cdd4, #11999e);  background-image:         linear-gradient(to bottom, #11cdd4, #11999e);
+}
+
+.btn:hover
+{ text-decoration: none;
+
+    background: #30e3cb;  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4a);  background-image:    -moz-linear-gradient(top, #30e3cb, #2bc4a);  background-image:     -ms-linear-gradient(top, #30e3cb, #2bc4a);  background-image:      -o-linear-gradient(top, #30e3cb, #2bc4a);  background-image:         linear-gradient(to bottom, #30e3cb, #2bc4a);
+}
